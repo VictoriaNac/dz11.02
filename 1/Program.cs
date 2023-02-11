@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("");
+﻿// Задайте массив заполненный случайными положительными трёхзначными числами.
+//Напишите программу, которая покажет количество чётных чисел в массиве.
+//[345, 897, 568, 234] -> 2
+
+Console.Clear();
+double [] GetArray(4,100,999);
+for (int z = 0; z < numbers.Length; z++)
+    if (numbers[z] % 2 == 0)
+    count++;
+Console.WriteLine($"Количество четных чисел: {count}")
